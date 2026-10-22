@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Công nghệ thông tin"
+    },
+    {
+      "id": "2",
+      "name": "Kinh tế - Kinh doanh"
+    },
+    {
+      "id": "3",
+      "name": "Khoa học - Tự nhiên"
+    },
+    {
+      "id": "4",
+      "name": "Văn học - Nghệ thuật"
+    },
+    {
+      "id": "5",
+      "name": "Kỹ năng sống"
+    }
+  ],
+  "books": [
+    {
+      "id": "BO-0001",
+      "name": "Lập trình ReactJS Thực Chiến",
+      "categoryId": "1",
+      "category": "Công nghệ thông tin",
+      "importDate": "2024-03-15",
+      "quantity": 50
+    },
+    {
+      "id": "BO-0004",
+      "name": "Kinh Tế Học Hài Hước",
+      "categoryId": "2",
+      "category": "Kinh tế - Kinh doanh",
+      "importDate": "2024-04-05",
+      "quantity": 30
+    },
+    {
+      "id": "BO-0002",
+      "name": "Đắc Nhân Tâm",
+      "categoryId": "5",
+      "category": "Kỹ năng sống",
+      "importDate": "2024-01-20",
+      "quantity": 120
+    },
+    {
+      "id": "BO-0005",
+      "name": "Vũ Trụ Trong Vỏ Hạt Dẻ",
+      "categoryId": "3",
+      "category": "Khoa học - Tự nhiên",
+      "importDate": "2023-09-18",
+      "quantity": 15
+    },
+    {
+      "id": "BO-0003",
+      "name": "Nhà Giả Kim",
+      "categoryId": "4",
+      "category": "Văn học - Nghệ thuật",
+      "importDate": "2023-11-10",
+      "quantity": 85
+    },
+    {
+      "id": "BO-0006",
+      "name": "Clean Code - Nghệ Thuật Viết Mã Sạch",
+      "categoryId": "1",
+      "category": "Công nghệ thông tin",
+      "importDate": "2024-02-28",
+      "quantity": 95
+    }
+  ]
+}

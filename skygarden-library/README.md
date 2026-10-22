@@ -75,24 +75,4 @@ npm run server
 npm run dev
 ```
 
----
 
-## 🎯 Chi Tiết Đáp Ứng Yêu Cầu & Điểm Số
-
-| STT | Yêu Cầu Đề Bài | Đáp Ứng Kỹ Thuật | Điểm |
-|:---:|:---|:---|:---:|
-| 1 | **Hiển thị danh sách từ db.json** | Lấy dữ liệu qua `bookService.js` từ `http://localhost:3001/books` | Đạt |
-| 2 | **Ngày nhập đúng định dạng `dd/MM/yyyy`** | Hàm `formatDate()` trong `utils/dateUtils.js` định dạng chính xác `dd/MM/yyyy` | **5đ** |
-| 3 | **Sắp xếp giảm dần theo số lượng** | Hàm `sortBooksByQuantityDesc()` trong `utils/bookUtils.js` sắp xếp giảm dần | **5đ** |
-| 4 | **Mã sách định dạng `BO-XXXX`** | Regex `/^BO\s*-\s*\d{4}$/i` kiểm tra chặt chẽ, báo lỗi chi tiết nếu sai | **2đ** |
-| 5 | **Tên sách không quá 100 ký tự** | Kiểm tra độ dài `<= 100` ký tự kèm bộ đếm thời gian thực | Đạt |
-| 6 | **Thể loại từ dropdown list** | Dropdown load dữ liệu động từ `db.json` (`categoryService.js`) | **2đ** |
-| 7 | **Ngày nhập không lớn hơn ngày hiện tại** | Ràng buộc thuộc tính `max` và hàm kiểm tra `isDateInPastOrToday()` | **2đ** |
-| 8 | **Số lượng là số nguyên lớn hơn 0** | Kiểm tra `Number.isInteger(num) && num > 0` | **2đ** |
-| 9 | **Thông báo thành công sau khi thêm** | Hiển thị Toast notification `Đã thêm mới sách... thành công!` và điều hướng | **5đ** |
-| 10 | **Tìm kiếm gần đúng theo tên sách** | Tìm kiếm không phân biệt hoa thường theo chuỗi con (`includes`) | **10đ** |
-| 11 | **Tìm kiếm theo thể loại** | Lọc theo ID / Tên thể loại từ dropdown | **5đ** |
-| 12 | **Tìm kiếm kết hợp cả 2 thông tin** | Kết hợp điều kiện Tên VÀ Thể loại trong `filterBooks()` | **5đ** |
-| 13 | **Hiển thị thông báo khi không có thông tin** | Component `EmptyBookList.jsx` hiển thị thông báo trực quan | **5đ** |
-| 14 | **Clean Code** | Phân tách module rõ ràng, xử lý lỗi tốt, cấu trúc đúng chuẩn đề bài | **5đ** |
-| 15 | **Giao diện** | Giao diện hiện đại, responsive, phối màu hài hòa, hiệu ứng mượt mà | Đạt |
